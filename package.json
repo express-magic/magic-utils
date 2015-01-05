@@ -2,5 +2,8 @@
   "name": "magic-utils",
   "version": "0.0.1",
   "private": true,
-  "main": "./utils.js"
+  "main": "./utils.js",
+  "dependencies": {
+    "magic-log": "git://github.com/express-magic/magic-log"
+  }
 }
