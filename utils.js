@@ -19,5 +19,6 @@ utils.each = utils.forEach = function (arrOrObj, func) {
     log.error('magic-utils', 'each called without array or object:', arrOrObj);
   }
 }
+utils.log = log;
 
 module.exports = utils;
