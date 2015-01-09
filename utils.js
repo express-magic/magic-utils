@@ -25,6 +25,9 @@ utils.each = utils.forEach = function (arrOrObj, func) {
 }
 
 utils.slugify = function (string) {
+  if ( ! string || typeof string !== 'string') { 
+    throw Error('Utils.slugify called without string argument'); 
+  }
   return string.replace(/[^\w\s]/g, '').toLowerCase().replace(/ /g, '-');
 }
 
