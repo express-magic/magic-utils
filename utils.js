@@ -24,6 +24,10 @@ utils.each = utils.forEach = function (arrOrObj, func) {
   }
 }
 
+utils.slugify = function (string) {
+  return string.replace(/[^\w\s]/g, '').toLowerCase().replace(/ /g, '-');
+}
+
 utils.mergeConfig = function (defaultConf, newConf) {
   utils.each(newConf, function(conf, key) {
     defaultConf[key] = conf;
