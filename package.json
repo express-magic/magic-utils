@@ -4,7 +4,7 @@
   "private": true,
   "main": "./utils.js",
   "dependencies": {
-    "async": "^0.9.0",
-    "magic-log": "git://github.com/express-magic/magic-log"
+    "async": "file:../async",
+    "magic-log": "file:../magic-log"
   }
 }
