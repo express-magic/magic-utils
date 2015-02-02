@@ -4,7 +4,7 @@
   "private": true,
   "main": "./utils.js",
   "dependencies": {
-    "async": "file:../async",
+    "async": "file:../../node_modules/async",
     "magic-log": "file:../magic-log"
   }
 }
